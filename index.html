@@ -12,11 +12,9 @@
   </head>
    
   <body>
-      <!--Catchy quote to catch the attention of recruiters-->
-    <h1><blockquote class="text-center text-muted">Design and programming are human activities; forget that and all is lost...</blockquote></h1>
      
     <!--NAV BAR listing all important information-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-info text-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-info" id="Home">
             <a class="navbar-brand" href="#">
                 <img src="./images/social-media-marketing-1-400x333.png" width="60" height="58">
             </a>
@@ -25,30 +23,33 @@
             </button>
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
+              <ul class="navbar-nav mr-auto text-white">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                  <a class="nav-link text-white" href="#Home">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Technical Skills</a>
+                  <a class="nav-link text-white" href="#Technical-Skills">Technical Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Profesional Skills</a>
+                    <a class="nav-link text-white" href="#Professional-Skills">Profesional Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Education</a>
+                    <a class="nav-link text-white" href="#Education">Education</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Experience</a>
+                    <a class="nav-link text-white" href="#Experience">Experience</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link text-white" href="#Portfolio">Portfolio</a>
+                    </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Projects</a>
                 </li>
                 <li class="nav-item">
-                   <a class="nav-link" href="#">GitHub</a>
+                   <a class="nav-link text-white" href="https://github.com/JRA2880">GitHub</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Linkedin</a>
+                  <a class="nav-link text-white" href="https://www.linkedin.com/in/john-r-adams-87257685/">Linkedin</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
@@ -57,17 +58,134 @@
               </form>
             </div>
           </nav>
-          <!--SECTIONS-->
+         <!---END NAVBAR-->
 
+         <!--JUMBOTRON-->
+          <div class="jumbotron text-center bg-light">
+                <h1 class="display-4'">John R. Adams -- Full Stack Web Developer & Software Developer</h1>
+                <p class="lead"><blockquote class="text-center text-muted font-weight-bold">The most important property of a program is whether it accomplishes the intention of its user.</blockquote></p>
+                <p class="lead"><blockquote class="text-center text-muted font-weight-bold">Design and programming are human activities; forget that and all is lost...</blockquote></p>
+            </div>
+            <!---END JUMBOTRON-->
 
+          <!--TECHNICAL SKILLS-->
+          <div class="container text-center text-muted" id="Technical-Skills">
+              <h1>Technical Skills</h1>
+                <div class="row">
+                  <div class="col-sm">
+                    <h3>Web Development</h3>
+                    <img class="img-fluid rounded my-4"src="./images/web-development.png" alt=""/>
+                    <p>Skilled in HTML5,CSS3, and JavaScript</p>      
+                  </div>
+                  <div class="col-sm">
+                    <h3>C#/.NET Programming</h3>
+                    <img class="img-fluid rounded"src="./images/C-Sharp-Logo (2).png" alt=""/>
+                    <p>Skilled with developing programs in C# utilizting the .NET Framework</p>   
+                  </div>
+                  <div class="col-sm">
+                    <h3>C Programming</h3>
+                    <img class="img-fluid rounded"src="./images/C-Programming-Logo.png" alt=""/>
+                    <p>Skilled with developing programs in C</p>   
+                </div>
+              </div>
+          <!--END OF TECHNICAL SKILLS-->
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+          <!--PROFESSIONAL SKILLS-->
+          <div class="container text-center text-muted my-10" id="Professional-Skills">
+                <h1>Professional Skills</h1>
+                <div class="row">
+                  <div class="col-sm">
+                    <h3>Project Management</h3>
+                    <img class="img-fluid rounded my-4"src="./images/Agile-Logo.png" alt=""/>
+                    <p>Experienced in Project Management</p>      
+                  </div>
+                  <div class="col-sm">
+                    <h3>People Focused</h3>
+                    <img class="img-fluid rounded"src="./images/Skills-of-a-CA-graphic.jpg" alt=""/>
+                    <p>Excellent communications skills and a team-builder</p>   
+                  </div>
+                  <div class="col-sm">
+                    <h3>Strategic Thinking -- Results Driven</h3>
+                    <img class="img-fluid rounded"src="./images/Digital-Strategy.png" alt=""/>
+                    <p>Determined to display results and strategically plan success.</p>   
+                  </div>
+                </div>
+              </div>
+          <!--END OF PROFESSIONAL SKILLS-->
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <!--EDUCATION-->
+           <h1 class="text-center">Education</h1>
+          <div class="card-deck my-5 text-center"  id="Education">
+                <div class="card">
+                  <img src="./images/Tech-Academy.png" class="card-img-top img-thumbnail" alt="...">
+                  <div class="card-block">
+                    <h5 class="card-title m-4">Certificate in Software Development</h5>
+                    <p class="card-text">Pursuing a certificate in software development from the Tech Academy,&nbsp;Portlant,Oregon.</p>
+                    <p class="card-text m-3 p-3">Full Stack Web development using HTML5,CSS, JavaScript. And software development using SQL and C# and the .NET Framework.</p>
+                  </div>
+                </div>
 
+                <div class="card">
+                  <img src="./images/St Petersburg College_200px.png" class="card-img-top img-thumbnail" alt="...">
+                  <div class="card-block">
+                    <h5 class="card-title m-4">Certificate in Computer Programming and Analysis</h5>
+                    <p class="card-text">Pursuing certificate in computer programming and analysis focusing on C# and C++ programming, &nbsp;St.Petersburg,Florida</p>
+                    <p class="card-text m-3 p-3">Computer programming utilizing C#, C++, JavaScript, Web Development Languages.</p>
+                  </div>
 
+                </div>
+                <div class="card">
+                  <img src="./images/LV-GEORGETOWN1.5C.png" class="card-img-top img-thumbnail" alt="...">
+                  <div class="card-block">
+                    <h5 class="card-title m-4">Master of Arts in Liberal Studies</h5>
+                    <p class="card-text">Awarded a master of arts in liberal studies with a focus in international affairs,&nbsp;Washington, D.C.</p>
+                    <p class="card-text m-3 p-3">Focused on Sino - U.S. Foreign Relations, International Business, and Security Studies</p>
+                  </div>
+                </div>
+              </div>
+          <!--END of EDUCATION-->
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <!--EXPERIENCE-->
+          <h1 class="text-center">Experience</h1>
+          <div class="card-deck my-5 text-center"  id="Experience">
+                <div class="card">
+                  <img src="./images/KFUPM.png" class="card-img-top img-thumbnail" alt="...">
+                  <div class="card-block">
+                    <h5 class="card-title m-4">Web Development Coordinator - Professional Development Coordinator - Lecturer</h5>
+                    <p class="card-text">King Fahd University of Petroleum and Minerals,&nbsp;Dahrahn, Saudi Arabia.</p>
+                    <p class="card-text m-3 p-3">Web Development Coordinator utilizing HTML5 and CSS to design department website.</p>
+                  </div>
+                </div>
 
-
-
-
-          <!--SECTIONS-->
-
+                <div class="card">
+                  <img src="./images/KSU.png" class="card-img-top img-thumbnail" alt="...">
+                  <div class="card-block">
+                    <h5 class="card-title m-4">English Lecturer</h5>
+                    <p class="card-text">King Saud University, &nbsp;Riyadh, Saudi Arabia</p>
+                    <p class="card-text m-3 p-3">Taught English Languge skills to university students.</p>
+                  </div>
+          <!--END of EXPERIENCE-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
