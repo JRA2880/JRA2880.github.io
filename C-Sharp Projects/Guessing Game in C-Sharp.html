@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Guessing Game in C#</title>
+	</head>
+	<body>
+	<pre>
+		<code>
+		    using System;
+			using System.Collections.Generic;
+			using System.Linq;
+			using System.Text;
+			using System.Threading.Tasks;
+			using static System.Console;
+			using static System.String;
+
+			namespace GuessingGame
+			{
+			class Program
+			{
+				static void Main(string[] args)
+				{
+					int playerGuess;
+					string playerInput;
+					bool isNumberGuessed = false;
+					int theAnswer;
+
+					Random rng = new Random();
+					theAnswer = rng.Next(1, 21);
+
+					do
+					{
+						Write("Enter your guess: ");
+						playerInput = ReadLine();
+						playerGuess = Convert.ToInt32(playerInput);
+
+						if (playerGuess == theAnswer)
+						{
+							WriteLine("Congratulations! You guessed {0} which is the correct number!", theAnswer);
+							isNumberGuessed = true;
+
+						}
+						else
+						{
+							if (playerGuess > theAnswer)
+							{
+								WriteLine("Sorry, your guess {0} was too high, try again.", playerGuess);
+
+							}
+							else
+							{
+								WriteLine("Sorry, your guess {0} was too low, try again.", playerGuess);
+
+							}
+						}
+
+					} while (!isNumberGuessed);
+				}
+			}
+		}
+		</code>
+	</pre>
+	</body>
+	
+</html>
