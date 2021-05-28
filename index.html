@@ -1,324 +1,133 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>John R. Adams | Technical Designer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-teal w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Me</a>
+    <a href="Portfolio.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Portfolio</a>
+    <a href="https://github.com/JRA2880" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Github</a>
+    <a href="https://www.linkedin.com/in/john-r-adams-87257685/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Linkedin</a>
+    <a href="CV.html"class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Curriculum Vitae</a>
+    <a href="./images/Resume/John%20R%20Adams%20-%20Tech%20Game%20Designer%20Resume%20-%2005-10-2021.pdf" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" download="John-R-Adams-Resume"><i class="fa fa-download" aria-hidden="true"></i> Download Resume</a>
+    <a href="contact.html"class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+  </div>
 
-    <title>John R. Adams | Software Developer</title>
-  </head>
-   
-  <body>
-     
-    <!--NAV BAR listing all important information-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-info" id="Home">
-            <a class="navbar-brand" href="#">
-                <img src="./images/social-media-marketing-1-400x333.png" width="60" height="58">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto text-white">
-                <li class="nav-item active">
-                  <a class="nav-link text-white" href="#Home">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#Technical-Skills">Technical Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#Professional-Skills">Profesional Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#Education">Education</a>
-                </li>
-				<li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   Website Design Portfolio
-				</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				<a class="dropdown-item" href="./Academy Cinemas/academy_cinemas.html">Academy Cinemas</a>
-				<a class="dropdown-item" href="./The Space Station/index.html">The Space Station</a>
-				<a class="dropdown-item" href="./Tulsa Summer Party/tny_july.html">Tulsa Summer Party</a>
-                <a class="dropdown-item" href="./Chupacabra Music Festival/cf_home.html">Chupacabra Music Festival</a>
-                <a class="dropdown-item" href="./Caul-Wood Gallery/cw_home.html">Caul-Wood Gallery</a>
-				<a class="dropdown-item" href="./Red Ball Pizza/rb_build.html">Red Ball Pizza</a>
-                <a class="dropdown-item" href="./ACGIP Conference/cg_register.html">ACGIP Conference</a>
-				<a class="dropdown-item" href="./Sky Dust Stories/sd_messier.html">Sky Dust Stories</a>
-				<a class="dropdown-item" href="./Save Your Fork/sf_torte.html">Save Your Fork</a>
-				<a class="dropdown-item" href="./Slate & Pencil Tutoring/sp_home.html">Slate & Pencil Tutoring</a>
-				<a class="dropdown-item" href="./A Soldier's Scrapbook/ss_dday.html">A Soldier's Scrapbook</a>
-				<a class="dropdown-item" href="./The Civil War & Reconstruction/cw_class.html">The Civil War & Reconstruction</a>
-				<a class="dropdown-item" href="./Rhetoric in the United States/ws_jfk.html">Rhetoric in the United States</a>
-				<a class="dropdown-item" href="./Golden Pulps/gp_cover.html">Golden Pulps - Cover Page</a>
-                <a class="dropdown-item" href="./Golden Pulps/gp_page1.html">Golden Pulps - Page # 1</a>
-				<a class="dropdown-item" href="./Golden Pulps/gp_page2.html">Golden Pulps - Page # 2</a>
-				<a class="dropdown-item" href="./Golden Pulps/gp_page3.html">Golden Pulps - Page # 3</a>
-				</div>
-                </li>
-				<li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   JavaScript Projects
-				</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				<a class="dropdown-item" href="./JS Projects/Pizza_Drill_Assignment.html">Online Pizza Order</a>
-                <a class="dropdown-item" href="./JS Projects/Buttons_Colors_JS.html">Button Colors</a>
-                <a class="dropdown-item" href="./JS Projects/Calculator.html">JavaScript Calculator</a>
-                <a class="dropdown-item" href="./JS Projects/Seconds_Timer.html">Seconds Timer</a>
-				<a class="dropdown-item" href="./JS Projects/Array_Demo_1.html">Happy New Year!</a>
-                </div>
-				</li>
-				<li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   JavaScript Games
-				</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="./Tic-Tac-Toe Game/TicTacToe.html">Tic Tac Toe Game</a>
-                <a class="dropdown-item" href="#">Work in Progress...</a>
-                <a class="dropdown-item" href="#">Work in Progress</a>
-				<a class="dropdown-item" href="#">Work in Progress</a>
-                </div>
-				</li>
-				<li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   C# Projects
-				</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="./C-Sharp Projects/Guessing Game in C-Sharp.html">Guessing Game in C#</a>
-                <a class="dropdown-item" href="./C-Sharp Projects/Multiplication Table in C-Sharp.html">Multiplaction Table in C-Sharp</a>
-                <a class="dropdown-item" href="./C-Sharp Projects/Price Index Array Example.html">Price Index Array Example</a>
-				<a class="dropdown-item" href="https://github.com/JRA2880/The-Tech-Academy-C-Sharp-Coding-Projects/tree/master/NewsLetterAppMVC">Newsletter MVC Application</a>
-				<a class="dropdown-item" href="https://github.com/JRA2880/The-Tech-Academy-C-Sharp-Coding-Projects/tree/master/ACMECarInsuranceMVCApp">ACME Car Insurance MVC Application</a>
-				<a class="dropdown-item" href="https://github.com/JRA2880/The-Tech-Academy-C-Sharp-Coding-Projects/tree/master/MiskatonicUniversity">Maskatonic University Entity Framework Code First Application</a>
-                </div>
-				</li>
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   Python Projects
-				</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="./Python Projects/Nice-or-Mean-Game.html">Nice or Mean Game in Python</a>
-                <a class="dropdown-item" href="./Python Projects/pythonDB.html">Python Database using sqlite3</a>
-                <a class="dropdown-item" href="./Python Projects/Search Directory GUI.html">Search Directory GUI</a>
-				<a class="dropdown-item" href="https://github.com/JRA2880/The-Tech-Academy-Python-Coding-Projects/blob/master/Check-Files-GUI.py">Check Files GUI</a>
-				<a class="dropdown-item" href="https://github.com/JRA2880/The-Tech-Academy-Python-Coding-Projects/tree/master/Phone_Book_DB">Phonebook Database</a>
-				<a class="dropdown-item" href="https://github.com/JRA2880/The-Tech-Academy-Python-Coding-Projects/tree/master/Directory_Database">Directory Database</a>
-                </div>
-                </li>				
-                <li class="nav-item">
-                   <a class="nav-link text-white" href="https://github.com/JRA2880">GitHub</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="https://www.linkedin.com/in/john-r-adams-87257685/">Linkedin</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
-         <!---END NAVBAR-->
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Me</a>
+    <a href="Portfolio.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Portfolio</a>
+    <a href="https://github.com/JRA2880" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Github</a>
+    <a href="https://www.linkedin.com/in/john-r-adams-87257685/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Linkedin</a>
+    <a href="CV.html"class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Curriculum Vitae</a>
+    <a href="contact.html"class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+  </div>
+</div>
 
-         <!--JUMBOTRON-->
-          <div class="jumbotron text-center bg-light">
-                <h1 class="display-3'">John R. Adams</h1>
-                <h1 class="display-3'">Full Stack Web Developer & Software Developer</h1>
-				<br>
-				<br>
-				<a><img src="./images/website-design-basic.png" width="200" height="200"></a>
-				<br>
-				<br>
-                <h2 class="lead"><blockquote class="text-center text-muted font-weight-bold">The most important property of a program is whether it accomplishes the intention of its user.</blockquote></h2>
-                <h2 class="lead"><blockquote class="text-center text-muted font-weight-bold">Design and programming are human activities; forget that and all is lost...</blockquote></h2>
-				<br>
-				<br>
-				<a><img src="./images/social-media-marketing-1-400x333.png" width="200" height="200"></a>
-				<a><img src="./images/software-develpment.png".png" width="200" height="200"></a>
-				<a><img src="./images/social-media-marketing-1-400x333.png" width="200" height="200"></a>
-				<br>
-            </div>
-            <!---END JUMBOTRON-->
+<!-- Header -->
+<header class="w3-container w3-teal w3-center" style="padding:75px 16px">
+  <h1 class="w3-margin w3-jumbo">John R. Adams | Technical Game Designer</h1>
+  <hr>
+  <br>
+    <h2> "It should be the experience, that is touching.</h2> 
+    <h2>What I strive for is to make the person playing the game the director."</h2>
+  <h2>~Shigeru Miyamoto~</h2>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"><a href="Portfolio.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Get Started</a></button>
+</header>
 
-          <!--TECHNICAL SKILLS-->
-		  <div class="container text-center text-muted" id="Technical-Skills">
-			<h1>Technical Skills</h1>
-				<div class="row">
-				<div class="col">
-				  <h3>Web Development</h3>
-				  <img class="img-fluid rounded my-5" src="./images/web-development.png" width="350" height="400" alt=""/>
-				  <p>Skilled in HTML5,CSS3, and JavaScript</p>
-				</div>
-				<div class="col">
-				<h3>Bootstrap 4 Framework</h3>
-				<img class="img-fluid rounded my-4" src="./images/bootstrap-logo-vector-download.jpg" width="400" height="400" alt=""/>
-				<p>Skilled in using the Bootstrap 4 Framework to develop dynamic and creative webpages</p>
-				</div>
-				<div class="col">
-				<h3>JQuery Framework</h3>
-				<img class="img-fluid rounded my-5" src="./images/jquery-icon-6.jpg" width="300" height="300" alt=""/>
-				<p>Skilled in using the JQuery Framework to develop responsive web pages with JavaScript</p>
-				</div>
-				</div>
-				<div class="row">
-				<div class="col">
-				  <h3>React JS Framework</h3>
-				  <img class="img-fluid rounded my-4" src="./images/React Icon.png" width="350" height="350" alt=""/>
-				  <p>Skilled in utilizing the React JavaScript Framework</p>
-				</div>
-				<div class="col">
-				  <h3>C#/.NET Programming</h3>
-				  <img class="img-fluid rounded my-4" src="./images/C-Sharp-Logo (2).png" width="350" height="350" alt=""/>
-				  <p>Skilled in the C# programming language utilizing the .NET Framework</p>
-				</div>
-				<div class="col">
-				  <h3>C Programming</h3>
-				  <img class="img-fluid rounded my-4" src="./images/C-Programming-Logo.png" width="350" height="350" alt=""/>
-				  <p>Skilled in C programming language</p>
-				</div>
-				</div>
-				<div class="row">
-				<div class="col">
-				  <h3>Python Programming</h3>
-				  <img class="img-fluid rounded my-4" src="./images/python-logo.png" width="350" height="350" alt=""/>
-				  <p>Skilled in programming and development using the Python programming language</p>
-				</div>
-				<div class="col">
-				  <h3>Tkinter GUI Development</h3>
-				  <img class="img-fluid rounded my-4" src="./images/tkinter-logo.jpg" width="350" height="350" alt=""/>
-				  <p>Skilled in utilizing the Tkinter GUI Toolkit to develop GUI applications</p>
-				</div>
-				<div class="col">
-				  <h3>The Django Framework</h3>
-				  <img class="img-fluid rounded my-4" src="./images/django-logo.jpg" width="350" height="350" alt=""/>
-				  <p>Skilled in utilizing the Django web application framework to build dynamic websites for e-commerce purposes</p>
-				</div>
-				</div>
-				<div class="row">
-				<div class="col">
-				  <h3>SQL Programming</h3>
-				  <img class="img-fluided rounded my-4" src="./images/SQL.png" width="350" height="350" alt=""/>
-				  <p>Skilled in SQL programming and the establishment of relational databases</p>
-				  <p>Created SQL Project to simulate a Library database.</p>
-				  <p><a href="https://github.com/JRA2880/The-Tech-Academy-SQL-Coding-Projects/blob/master/LIBRARY-SQL-PROJECT.sql">Click here for the project!</a></p>
-				</div>
-				<div class="col">
-				  <h3>Version Control</h3>
-				  <img class="img-fluided rounded my-4" src="./images/git-logo_3.jpg" width="350" height="350" alt=""/>
-				  <p>Skilled in GitBash, GitHub, and GitHub Desktop Version Control.</p>
-				</div>
-				<div class="col">
-				  <h3>CompTIA IT Fundamentals</h3>
-				  <img class="img-fluided rounded my-5" src="./images/CompTIA-IT Fundamentals.png" width="350" height="300" alt=""/>
-				  <p>Certified in Information Technology Fundamentals through CompTIA.
-				</div>
-			  </div>
-		   </div>
-          <!--END OF TECHNICAL SKILLS-->
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-          <!--PROFESSIONAL SKILLS-->
-		   	  <div class="container text-center text-muted" id="Professional-Skills">
-			<h1>Professional Skills</h1>
-				<div class="row">
-				<div class="col">
-				  <h3>Project Management</h3>
-				  <img class="img-fluid rounded my-4"src="./images/Agile-Logo.png" width="400" height="400" alt=""/>
-				  <p>Experienced in Project Management -- Agile and Scrum</p>
-				</div>
-				<div class="col">
-				  <h3>People-focused</h3>
-				  <img class="img-fluid rounded"src="./images/Skills-of-a-CA-graphic.jpg" alt=""/>
-				  <p>Excellent communications skills and a team-builder</p>
-				</div>
-				<div class="col">
-				  <h3>Strategic Thinking</h3>
-				  <img class="img-fluid rounded"src="./images/Ignite+Action+icons+STRATEGY.png" width="240" height="230" alt=""/>
-				  <p>Well-organized and a strategic planner.</p>
-				</div>
-				</div>
-				<div class="row">
-				<div class="col">
-				  <h3>Writing Skills</h3>
-				  <img class="img-fluided rounded my-4" src="./images/icon_MobisleNotes-Android.jpg" width="240" height="230" alt=""/>
-				  <p>Excellent writing and editing skills</p>
-				</div>
-				<div class="col">
-				  <h3>Accountable</h3>
-				  <img class="img-fluided rounded my-2" src="./images/responsibility-png-300_300.png" width="300" height="300" alt=""/>
-				  <p>Accountable and responsible for project goals and meeting client needs.</p>
-				</div>
-				<div class="col">
-				  <h3>Problem Solver</h3>
-				  <img class="img-fluided rounded my-4" src="./images/problem-solver.png" alt=""/>
-				  <p>A problem solver and a creative thinker able to find solutions.</p>
-				</div>
-			  </div>
-		   </div>
-          <!--END OF PROFESSIONAL SKILLS-->
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <!--EDUCATION-->
-           <h1 class="text-center">Education</h1>
-          <div class="card-deck my-5 text-center"  id="Education">
-                <div class="card">
-                  <img src="./images/Tech-Academy.png" class="card-img-top img-thumbnail" alt="...">
-                  <div class="card-block">
-                    <h5 class="card-title m-4">Certificate in Software Development</h5>
-                    <p class="card-text">Pursuing a certificate in software development from the Tech Academy,&nbsp;Portlant,Oregon.</p>
-                    <p class="card-text m-3 p-3">Full Stack Web development using HTML5,CSS, JavaScript. And software development using SQL and C# and the .NET Framework.</p>
-                  </div>
-                </div>
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+    <a href="GameDesign.html"><img src="./images/Game_Design_Dice_Icon_B&W.jpg" class="w3-hover-opacity"  alt="Img" height="204" width="220" style="border-radius:50px"></a>
+    </div>
+    <div class="w3-twothird">
+      <h1>Game Design</h1>
+      <h5>At the core of any good video game is game design that strives to provide the player agency and immersion in the video game...</h5>
+      <p class="w3-text-grey">In this portion of my portfolio, you will find a sampling of some of my game design pitches that I have created. Clicking on the Game Design image will send you to my game design section of my portfolio. Roll the dice, and see what game pitches are in store!</p>
+    </div>  
+  </div>
+</div>
 
-                <div class="card">
-                  <img src="./images/St Petersburg College_200px.png" class="card-img-top img-thumbnail" alt="...">
-                  <div class="card-block">
-                    <h5 class="card-title m-4">Certificate in Computer Programming and Analysis</h5>
-                    <p class="card-text">Pursuing a certificate in computer programming and analysis focusing on C# and C++ programming, &nbsp;St.Petersburg,Florida</p>
-                    <p class="card-text m-3 p-3">Computer programming utilizing C#, C++, JavaScript, Web Development Languages.</p>
-                  </div>
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <a href="UnrealProjects.html"><img src="images/Unreal_Engine_Logo.jpg" class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius:50px"> </a>
+    </div>
 
-                </div>
-                <div class="card">
-                  <img src="./images/LV-GEORGETOWN1.5C.png" class="card-img-top img-thumbnail" alt="...">
-                  <div class="card-block">
-                    <h5 class="card-title m-4">Master of Arts in Liberal Studies</h5>
-                    <p class="card-text">Awarded a master of arts in liberal studies with a focus in international affairs,&nbsp;Washington, D.C.</p>
-                    <p class="card-text m-3 p-3">Focused on Sino - U.S. Foreign Relations, International Business, and Security Studies</p>
-                  </div>
-                </div>
-              </div>
-          <!--END of EDUCATION-->
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-         
-		 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <div class="w3-twothird">
+      <h1>Unreal Projects</h1>
+      <h5>The Unreal Game Engine, an excellent game engine that allows you to create infinite possibilities...</h5>
+      <p class="w3-text-grey">This portfolio section has my current prototypes and projects in Unreal Engine 4.  Clicking on the Unreal Logo will send you to my UE4 projects.</p>
+    </div>
+  </div>
+</div>
+    
+<!-- Third Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <a href="UnityProjects.html"><img src="./images/unity.png" class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius:50px"></a>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Unity Projects</h1>
+      <h5>The Unity Game Engine, an excellent starting point for both hobbyists and seasoned software developers to begin a journey in game development... </h5>
+
+      <p class="w3-text-grey">This portfolio section will display my current projects in Unity. Clicking on the Unity Logo will send you to my Unity projects.</p>
+    </div>
+  </div>
+</div>
+    
+<!-- Fourth Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <a href="TechDesign.html"><img src="images/atari-decal.jpg" class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius:50px"></a>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Technical Design</h1>
+      <h5>From humble beginnings with the first Technical Game Designers of Atari, Technical Game Designers bridge the gap between the theory of game design, and the practicality of software devolpment and design...</h5>
+
+      <p class="w3-text-grey">This final section of my portfolio will demonstrate my technical ability as it relates to game development, tools development, and scripting ability.  In this section, you will find examples of my coding and scripting ability in C#, C++, and Lua. Clicking on the Atari Logo will take you to my current projects and coding examples for Technical Design.</p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-teal w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: “If opportunity doesn’t knock, build a door.”</h1>
+</div>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
 </html>
