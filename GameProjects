@@ -45,18 +45,18 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <h1 class="w3-margin w3-jumbo">John R. Adams | Technical Game Designer</h1>
   <hr>
   <br>
-    <h1>Technical Design</h1> 
+    <h1>Unreal Projects</h1> 
 </header>
 
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
-      <img src="images/C-Sharp-NET.png"  class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius: 50px">
+     <a href="TheOutpost.html"><img src="images/The-Outpost-Thumbnail-Screenshot.PNG" class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius: 50px"></a> 
     </div>
     <div class="w3-twothird">
-      <h2>C# Projects</h2>
-      <p class="w3-text-grey">C# projects coming soon!</p>
+      <h2>The Outpost Prototype</h2>
+      <p class="w3-text-grey">The Outpost prototype is a prototype that I developed while in graduate school at FIEA.  It is a FPS game that combines survival mechanics on a hostile, alien planet.</p>
     </div>  
   </div>
 </div>
@@ -65,12 +65,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
-      <img src="images/CPlusPlus2_Icon.png"  class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius:50px"> 
+      <a href="DungeonHero.html"><img src="images/Dungeon-Hero-Thumbnail-Icon.PNG"  class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius:50px"> </a>
     </div>
 
     <div class="w3-twothird">
-      <h2>C++ Projects</h2>
-      <p class="w3-text-grey">C++ projects coming soon!</p>
+      <h2>Dungeon Hero Prototype</h2>
+      <p class="w3-text-grey">The Dungeon Hero prototype is an example of a blueprint prototype that highlights one of my favorite game genres, the dungeon crawler!</p>
     </div>
   </div>
 </div>
@@ -79,43 +79,47 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
-      <img src="./images/python-icon-17.jpg"  class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius:50px">
+      <a href="SeaFox.html"><img src="./images/Seafox-Project-Thumbnail-Icon.PNG" class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius:50px"></a>
     </div>
 
     <div class="w3-twothird">
-      <h2>Python Projects</h2>
-      <p class="w3-text-grey">Python Projects coming soon!</p>
+      <h2>The Sea Fox Project</h2>
+      <p class="w3-text-grey">The Sea Fox project is a project that I worked on while at FIEA in the Game Lab course.  The project was for Lockheed Martin.  The goal of this project is to turn a game-based environment to test an AI player to be able to navigate an underwater environment to avoid underwater mines.</p>
     </div> 
   </div>
-</div>
+</div> 
     
-<!-- Third Grid -->
+<!-- Fourth Grid -->
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
-      <img src="./images/Lua_Icon4.jpg"  class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius:50px">
+      <a href="TheLastSpark.html"><img src="./images/The%20Last%20Spark/HighresScreenshot00000.png" class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius:50px"></a>
     </div>
 
     <div class="w3-twothird">
-      <h2>Lua Projects</h2>
-      <p class="w3-text-grey">Lua Projects coming soon!</p>
+      <h2>The Last Spark</h2>
+      <p class="w3-text-grey">The Last Spark is a indie game project that I worked on while at FIEA for Electronic Revolution Studios.  The Last Spark is a 3D Puzzle Platformer with Environmental Storytelling.</p>
     </div> 
   </div>
-</div>
-    
-<!-- Fourth Grid -->
-<div class="w3-bar w3-black">
-  <a href="index.html" class="w3-bar-item w3-button">Home</a>
-  <a href="about.html" class="w3-bar-item w3-button">About me</a>
-  <a href="Portfolio.html" class="w3-bar-item w3-button">Portfolio</a>
-  <a href="GameDesign.html" class="w3-bar-item w3-button">Game Design</a>
-  <a href="GameProjects.html" class="w3-bar-item w3-button">Game Projects</a>
-  <a href="TechDesign.html" class="w3-bar-item w3-button">Technical Design</a>
-  <a href="https://github.com/JRA2880" class="w3-bar-item w3-button">Github</a>
-  <a href="https://www.linkedin.com/in/john-r-adams-87257685/" class="w3-bar-item w3-button">Linkedin</a>
-  <a href="CV.html"class="w3-bar-item w3-button">Curriculum Vitae</a>
-  <a href="./images/Resume/John%20R%20Adams%20-%20Tech%20Game%20Designer%20Resume%20-%2005-10-2021.pdf" class="w3-bar-item w3-button" download="John-R-Adams-Resume"> <i class="fa fa-download" aria-hidden="true"></i> Download Resume</a>
-  <a href="contact.html"class="w3-bar-item w3-button">Contact</a> 
+</div> 
+<!-- Fifth Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+     <table class=w3-table>
+        <tr>
+            <th><a href="GameDesign.html"><img src="images/Game_Design_Dice_Icon_B&W.jpg" class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius:50px"></a></th>
+            <th><a href="UnrealProjects.html"><img src="./images/Unreal_Engine_Logo.jpg"  class="w3-hover-opacity"alt="Img" height="204" width="220" style="border-radius:50px"></a></th>
+            <th><a href="UnityProjects.html"><img src="./images/unity.png" class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius:50px"></a></th>
+            <th><a href="TechDesign.html"><img src="./images/atari-decal.jpg" class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius:50px"></a></th>
+         </tr>
+         <tr>
+             <th style="font-size:25px;text-align:center">Game Design</th>
+             <th style="font-size:25px;text-align:center">Unreal Projects</th>
+             <th style="font-size:25px;text-align:center">Unity Projects</th>
+             <th style="font-size:25px;text-align:center">Technical Design</th>
+         </tr>
+      </table>
+  </div>
 </div>
 
 <div class="w3-container w3-teal w3-center w3-opacity w3-padding-64">

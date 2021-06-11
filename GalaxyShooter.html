@@ -48,7 +48,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <br>
   <br>
   <h1 class="w3-margin w3-jumbo" style="font-weight: bolder; ">John R. Adams | Technical Game Designer</h1>
-    <h1 class="w3-margin w3-jumbo" style="font-weight: bolder;">Unity Projects</h1> 
+    <h1 class="w3-margin w3-jumbo" style="font-weight: bolder;">Game Projects</h1> 
 </header>
          <div class="w3-container w3-center"><h1 style="font-size:65px">Galaxy Shooter</h1></div>
     <main>
@@ -86,7 +86,93 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                    Your browser does not support the video tag.
                </video>
               <h2>Galaxy Shooter Game Demo Video</h2>
-        </div>         
+        </div>     
+     <hr>      
+     <div class="w3-row padding w3-center">
+        <h2>Prototype Managers Script</h2>
+        <p style="font-size:20px"></p>
+          <br>
+         <div class="w3-container w3-third">
+               <img src='./images/GalaxyShooter/GameManager.PNG'  alt="Img" width="100%" onclick="onClick(this)">
+               <p style="font-size:20px; text-align:center">Game Manager Script</p>
+           </div>
+             <div class="w3-container w3-third">
+               <img src="./images/GalaxyShooter/UIManager.PNG"  alt="Img" width="100%" onclick="onClick(this)">
+               <p style="font-size:20px; text-algin:center">UI Manager Script</p>
+           </div>
+          <div class="w3-container w3-third">
+               <img src="./images/GalaxyShooter/SpawnManager.PNG"  alt="Img" width="100%" onclick="onClick(this)">
+               <p style="font-size:20px; text-align:center">Spawn Manager Script</p>
+           </div>
+           <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+               <img class="w3-modal-content" id="img01" style="width:100%">
+           </div>
+           <script>
+            function onClick(element)
+            {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+            }
+           </script>
+    </div> 
+        
+    <hr>      
+     <div class="w3-row padding w3-center">
+        <h2>Player Script</h2>
+        <p style="font-size:20px"></p>
+          <br>
+         <div class="w3-container w3-third">
+               <img src='./images/GalaxyShooter/PlayerScript1.PNG'  alt="Img" width="100%" onclick="onClick(this)">
+               <p style="font-size:20px; text-align:center">Player Script Part 1</p>
+           </div>
+             <div class="w3-container w3-third">
+               <img src="./images/GalaxyShooter/PlayerScript2.PNG"  alt="Img" width="100%" onclick="onClick(this)">
+               <p style="font-size:20px; text-algin:center">Player Script Part 2</p>
+           </div>
+          <div class="w3-container w3-third">
+               <img src="./images/GalaxyShooter/PlayerScript3.PNG"  alt="Img" width="100%" onclick="onClick(this)">
+               <p style="font-size:20px; text-align:center">Player Script 3</p>
+           </div>
+           <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+               <img class="w3-modal-content" id="img01" style="width:100%">
+           </div>
+           <script>
+            function onClick(element)
+            {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+            }
+           </script>
+    </div>
+    
+          <hr>      
+     <div class="w3-row padding w3-center">
+        <h2>Enemy and Asteriod Scripts</h2>
+        <p style="font-size:20px"></p>
+          <br>
+         <div class="w3-container w3-third">
+               <img src='./images/GalaxyShooter/Enemy%20Script1.PNG'  alt="Img" width="100%" onclick="onClick(this)">
+               <p style="font-size:20px; text-align:center">Enemy Script Part 1</p>
+           </div>
+             <div class="w3-container w3-third">
+               <img src="./images/GalaxyShooter/EnemyScript2.PNG"  alt="Img" width="100%" onclick="onClick(this)">
+               <p style="font-size:20px; text-algin:center">Enemy Script Part 2</p>
+           </div>
+          <div class="w3-container w3-third">
+               <img src="./images/GalaxyShooter/Asteroid.PNG"  alt="Img" width="100%" onclick="onClick(this)">
+               <p style="font-size:20px; text-align:center">Asteroid Script</p>
+           </div>
+           <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+               <img class="w3-modal-content" id="img01" style="width:100%">
+           </div>
+           <script>
+            function onClick(element)
+            {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+            }
+           </script>
+    </div>
      <!--<div class="w3-row padding w3-center">
         <h2>Conveyor Belt Mechanic Details</h2>
         <p style="font-size:20px"></p>
@@ -117,36 +203,32 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     </main>
     <br>
         <div class="w3-center">
-            <div class="w3=bar w3-border w3-round w3-xlarge">
-              <a href="UnrealProjects.html" class="w3-bar-item w3-button">&laquo;</a>
+             <div class="w3=bar w3-border w3-round w3-xlarge">
+              <a href="Portfolio.html" class="w3-bar-item w3-button">&laquo;</a>
+              <a href="TheOutpost.html" class="w3-bar-item w3-button">The Outpost</a>
+              <a href="DungeonHero.html" class="w3-bar-item w3-button">Dungeon Hero</a>
+              <a href="SeaFox.html" class="w3-bar-item w3-button">The Sea Fox Project</a>
+              <a href="TheLastSpark.html" class="w3-bar-item w3-button">The Last Spark</a>
               <a href="GalaxyShooter.html" class="w3-bar-item w3-button">Galaxy Shooter</a>
-              <a href="#" class="w3-bar-item w3-button">Procedural Dungeon Prototype</a>
-              <a href="#" class="w3-bar-item w3-button">A* Pathfinding Prototype</a>
-              <a href="#" class="w3-bar-item w3-button"></a>
-              <a href="TechDesign.html" class="w3-bar-item w3-button">&raquo;</a>     
+              <a href="TechDesign.html" class="w3-bar-item w3-button">&raquo;</a>  
             </div>
         </div> 
     
     
     <!-- Fourth Grid -->
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <div class="w3-content">
-     <table class=w3-table>
-        <tr>
-            <th><a href="GameDesign.html"><img src="images/Game_Design_Dice_Icon_B&W.jpg" class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius:50px"></a></th>
-            <th><a href="UnrealProjects.html"><img src="./images/Unreal_Engine_Logo.jpg" class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius:50px"></a></th>
-            <th><a href="UnityProjects.html"><img src="./images/unity.png" class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius:50px"></a></th>
-            <th><a href="TechDesign.html"><img src="./images/atari-decal.jpg" class="w3-hover-opacity" alt="Img" height="204" width="220" style="border-radius:50px"></a></th>
-         </tr>
-         <tr>
-             <th style="font-size:25px;text-align:center">Game Design</th>
-             <th style="font-size:25px;text-align:center">Unreal Projects</th>
-             <th style="font-size:25px;text-align:center">Unity Projects</th>
-             <th style="font-size:25px;text-align:center">Technical Design</th>
-         </tr>
-      </table>
-  </div>
-</div>
+<div class="w3-bar w3-black">
+  <a href="index.html" class="w3-bar-item w3-button">Home</a>
+  <a href="about.html" class="w3-bar-item w3-button">About me</a>
+  <a href="Portfolio.html" class="w3-bar-item w3-button">Portfolio</a>
+  <a href="GameDesign.html" class="w3-bar-item w3-button">Game Design</a>
+  <a href="GameProjects.html" class="w3-bar-item w3-button">Game Projects</a>
+  <a href="TechDesign.html" class="w3-bar-item w3-button">Technical Design</a>
+  <a href="https://github.com/JRA2880" class="w3-bar-item w3-button">Github</a>
+  <a href="https://www.linkedin.com/in/john-r-adams-87257685/" class="w3-bar-item w3-button">Linkedin</a>
+  <a href="CV.html"class="w3-bar-item w3-button">Curriculum Vitae</a>
+  <a href="./images/Resume/John%20R%20Adams%20-%20Tech%20Game%20Designer%20Resume%20-%2005-10-2021.pdf" class="w3-bar-item w3-button" download="John-R-Adams-Resume"> <i class="fa fa-download" aria-hidden="true"></i> Download Resume</a>
+  <a href="contact.html"class="w3-bar-item w3-button">Contact</a> 
+    </div>
 
 <div class="w3-container w3-teal w3-center w3-opacity w3-padding-64">
     <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
