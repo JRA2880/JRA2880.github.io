@@ -1,4 +1,4 @@
 # JRA2880.github.io
-Software Developer Portfolio
+Technical Game Designer Portfolio
 
-This is my software developer portfolio to demonstrate my abilities as a software developer.
+This is my technical game designer portfolio to demonstrate my abilities as a technical game designer.
